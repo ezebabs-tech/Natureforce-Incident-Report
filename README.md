@@ -28,4 +28,4 @@ The suspicious binary file (`runner_jlove.exe`) downloaded during the incident w
 
 ```bash
 # Verification command executed in analysis environment:
-sha256sum runner_jlove.exetureforce-Incident-Report
+sha256sum runner_jlove.exe
