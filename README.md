@@ -13,7 +13,7 @@ The following forensic indicators were extracted from the network traffic captur
 | Indicator Category   | Forensic Value |
 
 | **Infected Host IP** | `10.10.1.128` |
-| **MAC Address**      | `00:22:fb:fe:7e:e7` |
+| **MAC Address**      | `00:22:fb:ec:7e:e7` |
 | **Hostname**         | `DESKTOP-4V6YQX7` |
 | **User Account**     | `bdiaz` |
 | **C2 Destination IP**| `107.175.82.242:9000` |
