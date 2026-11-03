@@ -21,6 +21,12 @@ The following forensic indicators were extracted from the network traffic captur
 ### Captured Evidence
 > **HTTP Payload Download & C2 Traffic:**
 > ![C2 Traffic Capture](c2_payload_capture.png.png)
+>
+> **Host user evidence:**
+> ![Traffic capture](Host_user_evidence.png)
+>
+> **User account evidence:**
+> ![Traffic capture](user_account_evidence.png)
 
 ---
 
