@@ -26,9 +26,9 @@ The suspicious binary file (`runner_jlove.exe`) downloaded during the incident w
 - **Filename:** `runner_jlove.exe`
 - **SHA-256 Hash:** `b789adce70c028a6d17be45ec34667aa95586350ee0c4057e75b138b1ad35061`
 
----
+
 `# Verification command executed in analysis environment:
-   sha256sum runner_jlove.exe`
+   `sha256sum runner_jlove.exe`
 
 ---
 # 4. Immediate Remediation Steps 
