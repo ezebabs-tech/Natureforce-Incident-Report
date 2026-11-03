@@ -29,3 +29,10 @@ The suspicious binary file (`runner_jlove.exe`) downloaded during the incident w
 ```bash
 # Verification command executed in analysis environment:
 sha256sum runner_jlove.exe
+
+---
+# 4. Immediate Remediation Steps 
+1. **Network Containment:** Unplug or isolate workstation `DESKTOP-4V6YQX7` from the `natureforce.com` domain immediately.
+2. **Account Securing:** Revoke active tokens and force a password reset for domain user `bdiaz`.
+3. **Egress Block:** Add an emergency block rule at the perimeter firewall for IP `107.175.82.242` on port `9000`.
+4. **Endpoint Scans:** Run full AV/EDR triage on the host to check for scheduled tasks or registry persistence.
