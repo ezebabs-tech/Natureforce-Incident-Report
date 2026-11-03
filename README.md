@@ -18,6 +18,10 @@ The following forensic indicators were extracted from the network traffic captur
 | **User Account**     | `bdiaz` |
 | **C2 Destination IP**| `107.175.82.242:9000` |
 
+### Captured Evidence
+> **HTTP Payload Download & C2 Traffic:**
+> ![C2 Traffic Capture](c2_payload_capture.png.png)
+
 ---
 
 # 3. Malware Payload & Cryptographic Hash
