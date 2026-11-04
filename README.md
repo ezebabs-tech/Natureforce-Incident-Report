@@ -28,6 +28,7 @@ The following forensic indicators were extracted from the network traffic captur
   * **Unusual Executable Retrieval:** The infected host explicitly executes an HTTP GET request for `runner_jlove.exe`. Enterprise workstations rarely fetch standalone executables directly via unencrypted HTTP from untrusted public IP blocks.
   * **Non-Standard Destination Port:** Standard web traffic uses port 80 or 443. Routing unencrypted HTTP GET queries across port `9000` indicates a custom Command-and-Control staging infrastructure bypass attempt.
   * **Automated Request Behavior:** The raw packet details show synthetic User-Agent headers characteristic of automated downloader scripts rather than standard web browser interactions.
+---
 >
 > **Host user evidence (DHCP Host Identification):**
 > ![Traffic capture](Host_user_evidence.png)
