@@ -21,7 +21,7 @@ The following forensic indicators were extracted from the network traffic captur
 ### Captured Evidence
 > **HTTP Payload Download & C2 Traffic:**
 > ![C2 Traffic Capture](c2_payload_capture.png.png)
->  **What this screenshot shows:** 
+>* **What this screenshot shows:** 
   The raw Wireshark packet capture filtering HTTP request traffic (`http.request`) initiated from the infected endpoint IP `10.10.1.128` to an external destination server (`107.175.82.242`) over TCP port `9000`.
 
 * **Why these indicators confirm malicious C2 activity:**
@@ -32,7 +32,7 @@ The following forensic indicators were extracted from the network traffic captur
 >
 > **Host user evidence (DHCP Host Identification):**
 > ![Traffic capture](Host_user_evidence.png)
-> **What this screenshot shows:** 
+>* **What this screenshot shows:** 
   Wireshark display of DHCP protocol transactions (`dhcp` / `bootp`) capturing Option 12 (Host Name) registration streams for the assigned IP address `10.10.1.128`.
 
 * **Why these indicators isolate endpoint `DESKTOP-4V6YQX7`:**
@@ -44,7 +44,7 @@ The following forensic indicators were extracted from the network traffic captur
 >
 > **User account evidence (Identity Attribution):**
 > ![Traffic capture](user_account_evidence.png)
-> **What this screenshot shows:** 
+>* **What this screenshot shows:** 
   SMB2 and Kerberos authentication exchanges (`Kerberos` / `SMB2`) passing active session tokens originating from host IP `10.10.1.128`.
 
 * **Why these indicators attribute the breach to account `bdiaz`:**
