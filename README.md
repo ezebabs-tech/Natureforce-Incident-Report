@@ -1,4 +1,4 @@
-# Incident Forensic Report: Natureforce AD Compromise
+# Incident Forensic Report: Natureforce Endpoint Compromise (AD Environment)
 
 # 1. Executive Summary
 - **Incident Type:** Unauthorized Executable Deployment & C2 Communication
